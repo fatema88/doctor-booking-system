@@ -1,0 +1,77 @@
+{
+  "counters": {
+    "D": 2,
+    "P": 2,
+    "S": 6,
+    "A": 0,
+    "R": 0
+  },
+  "doctors": [
+    {
+      "doctor_id": "D1",
+      "name": "Dr. Ali",
+      "slots": [
+        {
+          "slot_id": "S1",
+          "doctor_id": "D1",
+          "start_time": "2026-10-30 18:00",
+          "end_time": "2026-10-30 18:30",
+          "is_available": true
+        },
+        {
+          "slot_id": "S2",
+          "doctor_id": "D1",
+          "start_time": "2026-10-30 19:00",
+          "end_time": "2026-10-30 19:30",
+          "is_available": true
+        },
+        {
+          "slot_id": "S3",
+          "doctor_id": "D1",
+          "start_time": "2026-10-30 20:00",
+          "end_time": "2026-10-30 20:30",
+          "is_available": true
+        },
+        {
+          "slot_id": "S4",
+          "doctor_id": "D1",
+          "start_time": "2026-10-30 21:00",
+          "end_time": "2026-10-30 21:30",
+          "is_available": true
+        }
+      ]
+    },
+    {
+      "doctor_id": "D2",
+      "name": "Dr. Mona",
+      "slots": [
+        {
+          "slot_id": "S5",
+          "doctor_id": "D2",
+          "start_time": "2026-10-31 18:00",
+          "end_time": "2026-10-31 18:30",
+          "is_available": true
+        },
+        {
+          "slot_id": "S6",
+          "doctor_id": "D2",
+          "start_time": "2026-10-31 19:00",
+          "end_time": "2026-10-31 19:30",
+          "is_available": true
+        }
+      ]
+    }
+  ],
+  "patients": [
+    {
+      "patient_id": "P1",
+      "name": "Fatma"
+    },
+    {
+      "patient_id": "P2",
+      "name": "Nawal"
+    }
+  ],
+  "appointments": [],
+  "records": []
+}
